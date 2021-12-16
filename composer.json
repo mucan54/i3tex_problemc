@@ -1,6 +1,7 @@
 {
   "require": {
-    "php": "7.4.15"
+    "php": "7.4.15",
+    "silex/silex": "^2.3"
   },
   "autoload": {
     "psr-4": {
