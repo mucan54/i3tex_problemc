@@ -1,1 +1,1 @@
-# i3tex_problemc
+web: vendor/bin/heroku-php-apache2
