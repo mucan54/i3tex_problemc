@@ -1,16 +1,19 @@
 {
   "require" : {
-    "silex/silex": "^2.0.4",
-    "monolog/monolog": "^1.22",
-    "twig/twig": "^2.0",
-    "symfony/twig-bridge": "^3"
+    "silex/silex": "^2.0.4"
   },
   "require-dev": {
-    "heroku/heroku-buildpack-php": "*"
+    "heroku/heroku-buildpack-php": "*",
+    "phpunit/phpunit": "^9.5.10"
   },
   "autoload": {
     "psr-4": {
       "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "src/tests/"
     }
   }
 }
