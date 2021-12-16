@@ -2,8 +2,14 @@
   "name": "mucan/i3texpc",
   "type": "project",
   "description": "Problem C solution.",
-  "require": {
-    "php": "^7.3|^8.0"
+  "require" : {
+    "silex/silex": "^2.0.4",
+    "monolog/monolog": "^1.22",
+    "twig/twig": "^2.0",
+    "symfony/twig-bridge": "^3"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
   },
   "autoload": {
     "psr-4": {
