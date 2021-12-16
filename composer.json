@@ -1,8 +1,6 @@
 {
-  "name": "mucan/i3texpc",
-  "type": "project",
-  "description": "Problem C solution.",
   "require" : {
+    "php": "^7.4.0",
     "silex/silex": "^2.0.4",
     "monolog/monolog": "^1.22",
     "twig/twig": "^2.0",
@@ -15,20 +13,6 @@
     "psr-4": {
       "App\\": "src/"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "dont-discover": []
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
-
-
 
