@@ -1,7 +1,8 @@
 {
   "require": {
     "php": "7.4.15",
-    "silex/silex": "^2.3"
+    "silex/silex": "^2.3",
+    "composer-plugin-api": "^2.2"
   },
   "autoload": {
     "psr-4": {
